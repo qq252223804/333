@@ -1,0 +1,4 @@
+del /a /f /s /q C:\Users\Administrator\Desktop\apache-jmeter-3.1\bin\result.jtl
+rd /s /q C:\Users\Administrator\Desktop\apache-jmeter-3.1\HttpReport
+md C:\Users\Administrator\Desktop\apache-jmeter-3.1\HttpReport
+jmeter -n -t C:\Users\Administrator\Desktop\apache-jmeter-3.1\backups\µÇÂ¼.jmx -l result.jtl -e -o C:\Users\Administrator\Desktop\apache-jmeter-3.1\HttpReport
